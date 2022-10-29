@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validasi Data JS</title>
+    <script type="text/JavaScript" src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <!-- <header>
+        <div class="logo">
+        <h1>Validasi Data Anda</h1>
+        </div>
+        <div class="link">
+            <a href="#">Google</a>
+            <a href="#">Youtube</a>
+        </div>
+    </header> -->
+    
+    <div>
+        <header>
+        <h3>Form Validation</h3>
+        </header>
+        <form class="form-control" id="formKu" name="formKu" method="POST" onsubmit="return validasi()" action="proses.php">
+            <!-- <div class="space"> -->
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firtname" placeholder="Nama Depan">
+            <!-- </div> -->
+
+            <!-- <div class="space"> -->
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Nama Belakang">
+            <!-- </div> -->
+
+            <!-- <div class="space"> -->
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="@gmail"><br>
+            <!-- </div> -->
+
+            <!-- <div class="space"> -->
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password">
+            <!-- </div> -->
+
+            <!-- <div class="space"> -->
+                <label for="lname">Verifi Password</label>
+                <input type="password" id="vpassword" name="vpassword" placeholder="Verif Password">
+            <!-- </div> -->
+            
+            <input type="submit" value="Submit">
+        </form>
+
+        <footer>
+            <p>&copy; <b>Ibrahim Setiawan</b></p>
+        </footer>
+    </div>
+
+</body>
+</html>
